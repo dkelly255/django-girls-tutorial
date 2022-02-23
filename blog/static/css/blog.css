@@ -1,15 +1,17 @@
 h1 a, h2 a {
-    color: #C25100;
+    color: black;
     font-family: 'Lobster';
 }
 
 body {
     padding-left: 15px;
-    background-color: 
+    background-image: url(../images/hero.png);
+    background-size:cover;
+    /* background-repeat: no-repeat; */
 }
 
 .page-header {
-    background-color: #C25100;
+    background-color: #008f5b;
     margin-top: 0;
     margin-bottom: 40px;
     padding: 20px 20px 20px 40px;
@@ -69,16 +71,30 @@ h4 {
 
 .btn-secondary,
 .btn-secondary:visited {
-    color: #C25100;
+    color: #008f5b;
     background: none;
-    border-color: #C25100;
+    border-color: #008f5b;
 }
 
 .btn-secondary:hover {
     color: #FFFFFF;
-    background-color: #C25100;
+    background-color: #008f5b;
 }
 
 .comment {
     margin: 20px 0px 20px 20px;
+}
+
+.main-logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#centre {
+    color: #000000;
+    margin-left: 15px;
+}
+
+#content {
+    background-color: white;
 }
